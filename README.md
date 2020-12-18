@@ -1,5 +1,5 @@
 # px4uwb_ws
-利用uwb给px4提供位置信息的ros节
+利用uwb给px4提供位置信息的ros节点
 
 ## 依赖ros包
 请先安装好nooploop的uwb的ros驱动包，以及nooploop官方github里的seria、ros-melodic-serial*
