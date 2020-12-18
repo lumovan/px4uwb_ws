@@ -1,2 +1,0 @@
-px4_uwb
--DCATKIN_DEVEL_PREFIX=/home/shupeixuan/px4uwb_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shupeixuan/px4uwb_ws/install -G Unix Makefiles
