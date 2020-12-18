@@ -2,7 +2,7 @@
 机载计算机获取连接的uwb标签位置，并发送给px4充当vision pose位置信息  
 
 ## 依赖ros包
-请先安装好nooploop的uwb的ros驱动包，以及nooploop官方github里的seria、ros-melodic-serial*  
+请先安装好nooploop的uwb的ros驱动包，以及nooploop官方github里的serial、ros-melodic-serial*  
 也请安装好mavros包  
 
 ## 使用说明
