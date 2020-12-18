@@ -1,5 +1,5 @@
 # px4uwb_ws
-利用uwb给px4提供位置信息的ros节点
+机载计算机获取连接的uwb标签位置，并发送给px4充当ision pose位置信息
 
 ## 依赖ros包
 请先安装好nooploop的uwb的ros驱动包，以及nooploop官方github里的seria、ros-melodic-serial*
@@ -7,7 +7,7 @@
 
 ## 使用说明
 roslaunch px4_uwb swarm0.launch
-可以启动空循环uwb标签ros节点、mavros的px4节点、uwb给mavros的/mavros/vision_pose/pose发送x、y、z坐标的节点
+可以启动空循环uwb标签ros节点、mavros的px4节点、uwb给mavros的/mavros/vision_pose/pose话题发送x、y、z坐标的节点
 具体串口、波特率、group请在launch文件里自己改
 
 ## 设置pixhawk
