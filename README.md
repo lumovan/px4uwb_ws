@@ -3,6 +3,7 @@
 
 ## 依赖ros包
 请先安装好nooploop的uwb的ros驱动包，以及nooploop官方github里的seria、ros-melodic-serial*
+也请安装好mavros包
 
 ## 使用说明
 roslaunch px4_uwb swarm0.launch
